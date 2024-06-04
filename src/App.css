@@ -36,3 +36,22 @@
     transform: rotate(360deg);
   }
 } */
+
+body{
+  background-color: #FDFAF3;
+}
+.sp-content{
+  max-width: 672px;
+  margin:auto;
+  display: flex;
+}
+.sp-flex-row{flex-direction: row;}
+.sp-flex-column{flex-direction: column;}
+.sp-text-para{
+  font-family: Avenir Next;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+
+}
