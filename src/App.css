@@ -39,6 +39,7 @@
 
 body{
   background-color: #FDFAF3;
+  padding-top: 50px
 }
 .sp-content{
   max-width: 672px;
@@ -57,3 +58,23 @@ body{
 
 /* Elements */
 
+.sp-navbar{
+  justify-content: space-between;
+}
+.hero-section{
+  margin-top: 80px;
+}
+.sp-navbar ul{
+  display: flex;
+  list-style: none;
+}
+.sp-navbar ul li{
+  margin-left: 15px;
+}
+.sp-separator{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.sp-separator img{
+  width: 100%;
+}
