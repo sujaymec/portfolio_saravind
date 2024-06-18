@@ -1,5 +1,5 @@
 
-function ProjectSection({thumbNail}) {
+function ProjectSection({thumbNail, icon_array}) {
     return (
         <div className="sp-content sp-flex-column sp-project-section">
         <img src={thumbNail} alt="" className="project-thumbnail" />
@@ -7,13 +7,13 @@ function ProjectSection({thumbNail}) {
         <p>An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort.</p>
         <div className="tag-list sp-flex sp-flex-row">
             <div className="sp-tag-name">
-                HR tech
+                <span><img src={icon_array[0]} alt="" />HR tech</span>
             </div>
             <div className="sp-tag-name">
-                Web
+                <span><img src={icon_array[1]} alt="" />Web</span>
             </div>
             <div className="sp-tag-name">
-                AI
+                <span><img src={icon_array[2]} alt="" />AI</span>
             </div>
         </div>
       </div>

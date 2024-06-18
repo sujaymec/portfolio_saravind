@@ -1,10 +1,16 @@
 import './App.css';
 import separator from './components/separator_bar.svg'
-import projectThumbnail from './components/thumbnail_1.jpg'
+import projectThumbnail_1 from './components/thumbnail_1.jpg'
+import projectThumbnail_2 from './components/img/thumbnail_2.jpg'
+import projectThumbnail_3 from './components/img/thumbnail_3.jpg'
+import icon_briefcase from './components/img/icon_briefcase.svg'
+import icon_devices from './components/img/icon_devices.svg'
+import icon_steps from './components/img/icon_steps.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 
 function App() {
+  const icon_array = [icon_briefcase, icon_devices, icon_steps]
   return (
     <>
       <Navbar />
@@ -16,13 +22,33 @@ function App() {
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
       </div>
-      
       <h4 className="sp-content selected-work">
           # Selected work
       </h4>
-      <ProjectSection thumbNail={projectThumbnail} />
-      <ProjectSection thumbNail={projectThumbnail} />
-      <ProjectSection thumbNail={projectThumbnail} />
+      <ProjectSection thumbNail={projectThumbnail_1} icon_array ={icon_array} />
+      <ProjectSection thumbNail={projectThumbnail_2} icon_array ={icon_array} />
+      <ProjectSection thumbNail={projectThumbnail_3} icon_array ={icon_array}/>
+      <div className="sp-content sp-separator">
+        <img src={separator} alt="" />
+      </div>
+      <h4 className="sp-content selected-work">
+          # Contact
+      </h4>
+      <br />
+      <div className="sp-content">
+        <p>I’m looking to collaborate on interesting projects with great people and teams. Drop an email and lets connect!</p>
+        <div className="email-availability">
+          <button>
+            Copy email
+          </button>
+        </div>
+      </div>      
+      <div className="sp-content sp-separator">
+        <img src={separator} alt="" />
+      </div>
+      <h4 className="sp-content selected-work">
+          # Find me on
+      </h4>
     </>
   );
 }
