@@ -6,6 +6,10 @@ import projectThumbnail_3 from './components/img/thumbnail_3.jpg'
 import icon_briefcase from './components/img/icon_briefcase.svg'
 import icon_devices from './components/img/icon_devices.svg'
 import icon_steps from './components/img/icon_steps.svg'
+import icon_social_linkedin from './components/img/icon_social_linkedin.svg'
+import icon_social_twitter from './components/img/icons_social_twitter.svg'
+import icon_social_behance from './components/img/icon_social_behance.svg'
+import icons_social_medium from './components/img/icons_social_medium.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 
@@ -49,6 +53,14 @@ function App() {
       <h4 className="sp-content selected-work">
           # Find me on
       </h4>
+      <div className="sp-content">
+        <ul className='social-icons'>
+          <li><img src={icon_social_linkedin} /></li>
+          <li><img src={icon_social_twitter} /></li>
+          <li><img src={icon_social_behance} /></li>
+          <li><img src={icons_social_medium} /></li>
+        </ul>
+      </div>
     </>
   );
 }

@@ -1,19 +1,21 @@
 *{
   margin: 0;
   padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 body{
   background-color: #FDFAF3;
   padding: 50px 0;
 }
-p{
-  font-family: Open Sans;
+p, ul{
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
   text-align: left;
   margin: 5px 0 15px;
+  list-style: none;
 }
 h3{
   margin: 15px 0;
@@ -21,6 +23,7 @@ h3{
 .sp-content{
   max-width: 672px;
   margin:auto;
+  padding: 15px;
   display: flex;
   flex-direction: column;
 }
@@ -48,18 +51,38 @@ h3{
   list-style: none;
 }
 .sp-navbar ul li{
-  margin-left: 15px;
+  margin-left: 30px;
+  position: relative;
+  cursor: pointer;
+}
+.sp-navbar ul li::before{
+  cursor: default;
+  content: '';
+  height: 15px;
+  width: 15px;
+  /* background-color: red; */
+  background: url('./components/img/icon_navstar.svg') no-repeat center center;
+  position: absolute;
+  top: 7px;
+  left: -22px;
+}
+.sp-navbar ul li:first-child:before{
+  content: none;
 }
 .sp-separator{
   margin-top: 32px;
   margin-bottom: 32px;
 }
-.sp-separator img{
+.sp-separator img{ 
   width: 100%;
 }
 .sp-project-section{
   margin-top: 15px;
   margin-bottom: 45px;
+}
+.sp-project-section:hover{
+  cursor: pointer;
+  background-color: #ececec;
 }
 .sp-tag-name{
   padding: 0;
@@ -82,4 +105,12 @@ h3{
   border: 1px solid #ccc;
   outline: none;
   border-radius: 5px;
+}
+.social-icons{
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+}
+.social-icons li{
+  margin-right: 15px;
 }
