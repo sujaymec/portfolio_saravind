@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio_saravind/static/css/main.215743f1.css",
-    "main.js": "/portfolio_saravind/static/js/main.bd534191.js",
+    "main.css": "/portfolio_saravind/static/css/main.964ff80b.css",
+    "main.js": "/portfolio_saravind/static/js/main.635caa14.js",
     "static/js/453.a42074de.chunk.js": "/portfolio_saravind/static/js/453.a42074de.chunk.js",
     "static/media/logo_saravind.svg": "/portfolio_saravind/static/media/logo_saravind.9d82e0c79898489dd06c6bdf8145f826.svg",
     "static/media/thumbnail_3.jpg": "/portfolio_saravind/static/media/thumbnail_3.b56e10ea8d968ccd3525.jpg",
     "static/media/thumbnail_2.jpg": "/portfolio_saravind/static/media/thumbnail_2.6fa9c00572b295fbd98b.jpg",
     "static/media/thumbnail_1.jpg": "/portfolio_saravind/static/media/thumbnail_1.43a640165e0a36ae13d7.jpg",
+    "static/media/icon_social_behance.svg": "/portfolio_saravind/static/media/icon_social_behance.05f31b464ccd0b20832f78c87591b260.svg",
     "static/media/separator_bar.svg": "/portfolio_saravind/static/media/separator_bar.a7076b37e62b050f3ada387133847626.svg",
     "index.html": "/portfolio_saravind/index.html",
+    "static/media/icon_social_linkedin.svg": "/portfolio_saravind/static/media/icon_social_linkedin.c04e68355e87ab22c7592855cc82d119.svg",
     "static/media/icon_devices.svg": "/portfolio_saravind/static/media/icon_devices.966d14f99daabf45586211271d41a75f.svg",
+    "static/media/icons_social_medium.svg": "/portfolio_saravind/static/media/icons_social_medium.dc5163ffc5c41296e54cc60efb0b2f77.svg",
+    "static/media/icon_navstar.svg": "/portfolio_saravind/static/media/icon_navstar.1c682f5a8b185c9d5e49.svg",
+    "static/media/icons_social_twitter.svg": "/portfolio_saravind/static/media/icons_social_twitter.7698aa47ce6cb309e6331589366c5a67.svg",
     "static/media/icon_briefcase.svg": "/portfolio_saravind/static/media/icon_briefcase.4653a91cd469fdb5094db503a4856554.svg",
     "static/media/icon_steps.svg": "/portfolio_saravind/static/media/icon_steps.82a8a8029a05b57aa76dfec0886cfd25.svg",
-    "main.215743f1.css.map": "/portfolio_saravind/static/css/main.215743f1.css.map",
-    "main.bd534191.js.map": "/portfolio_saravind/static/js/main.bd534191.js.map",
+    "main.964ff80b.css.map": "/portfolio_saravind/static/css/main.964ff80b.css.map",
+    "main.635caa14.js.map": "/portfolio_saravind/static/js/main.635caa14.js.map",
     "453.a42074de.chunk.js.map": "/portfolio_saravind/static/js/453.a42074de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.215743f1.css",
-    "static/js/main.bd534191.js"
+    "static/css/main.964ff80b.css",
+    "static/js/main.635caa14.js"
   ]
 }
