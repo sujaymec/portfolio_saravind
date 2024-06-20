@@ -55,10 +55,10 @@ function App() {
       </h4>
       <div className="sp-content">
         <ul className='social-icons'>
-          <li><img src={icon_social_linkedin} /></li>
-          <li><img src={icon_social_twitter} /></li>
-          <li><img src={icon_social_behance} /></li>
-          <li><img src={icons_social_medium} /></li>
+          <li><img src={icon_social_linkedin} alt='' /></li>
+          <li><img src={icon_social_twitter} alt='' /></li>
+          <li><img src={icon_social_behance} alt='' /></li>
+          <li><img src={icons_social_medium} alt='' /></li>
         </ul>
       </div>
     </>
