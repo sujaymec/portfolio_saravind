@@ -23,9 +23,9 @@ p, ul{
 h2{
   font-size: 28px;
 }
-h3{
+/* h3{
   margin: 15px 0;
-}
+} */
 .sp-content{
   max-width: 672px;
   margin:auto;
@@ -106,8 +106,8 @@ h3{
 .selected-work{
   color: #666;
   font-weight: 400;
-  font-weight: 14px;
-  padding: 0 15px;
+  font-size: 14px;
+  padding: 0 15px 20px;
 }
 .email-availability button{
   background: #FDFAF3;

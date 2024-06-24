@@ -9,6 +9,7 @@ function Navbar() {
             </div>
             <ul className="nav-menu">
                 <li>Home</li>
+                <li>About</li>
                 <li>Resume</li>
             </ul>
         </nav>
