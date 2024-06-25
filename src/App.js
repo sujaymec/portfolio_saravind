@@ -1,8 +1,8 @@
 import './App.css';
 import separator from './components/separator_bar.svg'
 import projectThumbnail_1 from './components/img/thumbnail_1.png'
-// import projectThumbnail_2 from './components/img/thumbnail_2.jpg'
-// import projectThumbnail_3 from './components/img/thumbnail_3.jpg'
+import projectThumbnail_2 from './components/img/thumbnail_2.png'
+import projectThumbnail_3 from './components/img/thumbnail_3.png'
 import icon_briefcase from './components/img/icon_briefcase.svg'
 import icon_devices from './components/img/icon_devices.svg'
 import icon_steps from './components/img/icon_steps.svg'
@@ -10,7 +10,7 @@ import icon_social_linkedin from './components/img/icon_social_linkedin.svg'
 import icon_social_twitter from './components/img/icons_social_twitter.svg'
 import icon_social_behance from './components/img/icon_social_behance.svg'
 import icons_social_medium from './components/img/icons_social_medium.svg'
-import icon_mail from './components/img/icon_mail.svg'
+// import icon_mail from './components/img/icon_mail.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 
@@ -20,9 +20,9 @@ function App() {
     <>
       <Navbar />
       <div className="sp-content hero-section sp-flex-column">
-        <h2>Hey I'm Saravind 👋</h2>
-        <p>I'm a software designer with a deep passion for user experience and growth designs. Currently, <span>Sr. Product designer</span> at <span>We Create Problems</span>, an platform helps recruiters assess candidates more effectively. </p>
-        <p>Previously, I designed key products for startups including itilte and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
+        <h2>Hey I'm Saravind</h2>
+        <p>I'm a software designer with a deep passion for user experience and growth designs. Currently, <span className='sp-semi-bold'>Sr. Product designer</span> at <span className='sp-semi-bold sp-underline'>We Create Problems</span>, an platform helps recruiters assess candidates more effectively. </p>
+        <p>Previously, I designed key products for startups including Itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
       </div>
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
@@ -31,8 +31,8 @@ function App() {
           # Selected work
       </h4>
       <ProjectSection thumbNail={projectThumbnail_1} icon_array ={icon_array} />
-      <ProjectSection thumbNail={projectThumbnail_1} icon_array ={icon_array} />
-      <ProjectSection thumbNail={projectThumbnail_1} icon_array ={icon_array}/>
+      <ProjectSection thumbNail={projectThumbnail_2} icon_array ={icon_array} />
+      <ProjectSection thumbNail={projectThumbnail_3} icon_array ={icon_array}/>
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
       </div>
@@ -41,12 +41,12 @@ function App() {
       </h4>
       <div className="sp-content">
         <p>I’m looking to collaborate on interesting projects with great people and teams. Drop an email and lets connect!</p>
-        <div className="email-availability">
+        {/* <div className="email-availability">
           <button>
             <span><img src={icon_mail} alt="" /></span>
             Copy email
           </button>
-        </div>
+        </div> */}
       </div>      
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
@@ -61,6 +61,9 @@ function App() {
           <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icon_social_behance} alt='' /></a></li>
           <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icons_social_medium} alt='' /></a></li>
         </ul>
+      </div>
+      <div className="sp-content">
+        <span className='sp-footnote'>Designed in Figma and built with React. © 2024 Saravind. All rights reserved.</span>
       </div>
     </>
   );

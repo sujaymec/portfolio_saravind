@@ -23,6 +23,9 @@ p, ul{
 h2{
   font-size: 28px;
 }
+h3{
+  font-size: 20px;
+}
 /* h3{
   margin: 15px 0;
 } */
@@ -32,7 +35,7 @@ h2{
   padding: 15px;
   display: flex;
   flex-direction: column;
-  row-gap: 16px;
+  row-gap: 8px;
 }
 .sp-flex{display: flex}
 .sp-flex-row{flex-direction: row;}
@@ -44,6 +47,8 @@ h2{
   line-height: 28px;
   text-align: left;
 }
+.sp-semi-bold{font-weight: 600;}
+.sp-underline{text-decoration: underline;}
 
 /* Elements */
 
@@ -61,6 +66,7 @@ h2{
   margin-left: 30px;
   position: relative;
   cursor: pointer;
+  font-size: 14px;
 }
 .sp-navbar ul li::before{
   cursor: default;
@@ -85,7 +91,7 @@ h2{
 }
 .sp-project-section{
   /* margin-top: 15px; */
-  margin-bottom: 45px;
+  margin-bottom: 15px;
   border-radius: 20px;
 }
 .sp-project-section:hover{
@@ -101,6 +107,13 @@ h2{
 }
 .sp-tag-name span img{
   margin-right: 5px;
+}
+.sp-footnote{
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  color: #30303070;
+  margin-top: 40px;
 }
 
 .selected-work{
@@ -128,7 +141,7 @@ h2{
 .social-icons{
   display: flex;
   flex-direction: row;
-  margin-top: 25px;
+  margin-top: -15px;
 }
 .social-icons li{
   margin-right: 15px;
