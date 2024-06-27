@@ -1,11 +1,11 @@
 
-function ProjectSection({thumbNail, icon_array}) {
+function ProjectSection({thumbNail, icon_array, heading, text}) {
     return (
         <div className="sp-content sp-flex-column sp-project-section">
         <img src={thumbNail} alt="" className="project-thumbnail" />
         <br />
-        <h3>How I designed an AI tool to transform test creation from days to minutes</h3>
-        <p>An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort.</p>
+        <h3>{heading}</h3>
+        <p>{text}</p>
         <div className="tag-list sp-flex sp-flex-row">
             <div className="sp-tag-name">
                 <span><img src={icon_array[0]} alt="" />HR tech</span>

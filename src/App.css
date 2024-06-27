@@ -7,6 +7,7 @@
 body{
   background-color: #FDFAF3;
   padding: 50px 0;
+  /* cursor: url("https://abs.twimg.com/emoji/v2/72x72/1f525.png") 36 36, auto; */
 }
 button{
   cursor: pointer;
@@ -20,8 +21,12 @@ p, ul{
   /* margin: 5px 0 15px; */
   list-style: none;
 }
+a{
+  color:#060606;
+}
 h2{
   font-size: 28px;
+  font-weight: 600;
 }
 h3{
   font-size: 20px;
@@ -35,7 +40,7 @@ h3{
   padding: 15px;
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
+  row-gap: 16px;
 }
 .sp-flex{display: flex}
 .sp-flex-row{flex-direction: row;}
@@ -67,6 +72,7 @@ h3{
   position: relative;
   cursor: pointer;
   font-size: 14px;
+  line-height: 44px;
 }
 .sp-navbar ul li::before{
   cursor: default;
@@ -76,7 +82,7 @@ h3{
   /* background-color: red; */
   background: url('./components/img/icon_navstar.svg') no-repeat center center;
   position: absolute;
-  top: 7px;
+  top: 14px;
   left: -22px;
 }
 .sp-navbar ul li:first-child:before{
@@ -119,8 +125,9 @@ h3{
 .selected-work{
   color: #666;
   font-weight: 400;
-  font-size: 14px;
-  padding: 0 15px 20px;
+  font-size: 16px;
+  padding: 0 15px 5px;
+  position: relative;
 }
 .email-availability button{
   background: #FDFAF3;
@@ -141,8 +148,25 @@ h3{
 .social-icons{
   display: flex;
   flex-direction: row;
-  margin-top: -15px;
+  /* margin-top: -5px; */
 }
 .social-icons li{
   margin-right: 15px;
+}
+span.sp-available{
+  position: absolute;
+  right: 0;
+  font-size: 14px;
+}
+span.sp-available::before{
+  content:'';
+  display: block;
+  height: 15px;
+  width: 15px;
+  position: absolute;
+  left: -20px;
+  top: 3px;
+  /* background-color: rgb(172, 96, 96); */
+  background: url('./components/img/sp_available.gif') no-repeat center center;
+  background-size: 45px;
 }
