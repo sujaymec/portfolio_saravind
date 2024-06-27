@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio_saravind/static/css/main.9e03a8e8.css",
-    "main.js": "/portfolio_saravind/static/js/main.7c32dbf2.js",
+    "main.css": "/portfolio_saravind/static/css/main.808cfa49.css",
+    "main.js": "/portfolio_saravind/static/js/main.e29b74ef.js",
     "static/js/453.a42074de.chunk.js": "/portfolio_saravind/static/js/453.a42074de.chunk.js",
     "static/media/logo_saravind.svg": "/portfolio_saravind/static/media/logo_saravind.9d82e0c79898489dd06c6bdf8145f826.svg",
     "static/media/thumbnail_3.png": "/portfolio_saravind/static/media/thumbnail_3.10e309af40f5c4f9ba15.png",
     "static/media/thumbnail_2.png": "/portfolio_saravind/static/media/thumbnail_2.2f0a7e1b35146fabd3ad.png",
     "static/media/thumbnail_1.png": "/portfolio_saravind/static/media/thumbnail_1.f13e609de26ef2bcf293.png",
+    "static/media/sp_available.gif": "/portfolio_saravind/static/media/sp_available.8057d058891a806cb2d4.gif",
     "static/media/icon_social_behance.svg": "/portfolio_saravind/static/media/icon_social_behance.3bc174a1f8927d1eeccf724aba411f17.svg",
     "static/media/separator_bar.svg": "/portfolio_saravind/static/media/separator_bar.a7076b37e62b050f3ada387133847626.svg",
     "index.html": "/portfolio_saravind/index.html",
@@ -17,12 +18,12 @@
     "static/media/icons_social_twitter.svg": "/portfolio_saravind/static/media/icons_social_twitter.a98100a8d4b2c93d7c8125fa20a67a97.svg",
     "static/media/icon_briefcase.svg": "/portfolio_saravind/static/media/icon_briefcase.6ce7c7f8278a447ad7710639b3d5e809.svg",
     "static/media/icon_steps.svg": "/portfolio_saravind/static/media/icon_steps.644fa92d5f439e07767afa05459f47c2.svg",
-    "main.9e03a8e8.css.map": "/portfolio_saravind/static/css/main.9e03a8e8.css.map",
-    "main.7c32dbf2.js.map": "/portfolio_saravind/static/js/main.7c32dbf2.js.map",
+    "main.808cfa49.css.map": "/portfolio_saravind/static/css/main.808cfa49.css.map",
+    "main.e29b74ef.js.map": "/portfolio_saravind/static/js/main.e29b74ef.js.map",
     "453.a42074de.chunk.js.map": "/portfolio_saravind/static/js/453.a42074de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9e03a8e8.css",
-    "static/js/main.7c32dbf2.js"
+    "static/css/main.808cfa49.css",
+    "static/js/main.e29b74ef.js"
   ]
 }
