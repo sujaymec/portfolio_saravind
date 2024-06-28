@@ -99,10 +99,13 @@ h3{
   /* margin-top: 15px; */
   margin-bottom: 15px;
   border-radius: 20px;
+  transition: 0.4s;
+  cursor: url('./components/img/sp_cursor.png'), auto;
 }
 .sp-project-section:hover{
   cursor: pointer;
   background-color: #ececec;
+  cursor: url('./components/img/sp_cursor.png'), auto;
 }
 .sp-tag-name{
   padding: 0;
