@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_saravind/static/css/main.808cfa49.css",
+    "main.css": "/portfolio_saravind/static/css/main.ebba74b7.css",
     "main.js": "/portfolio_saravind/static/js/main.e29b74ef.js",
     "static/js/453.a42074de.chunk.js": "/portfolio_saravind/static/js/453.a42074de.chunk.js",
     "static/media/logo_saravind.svg": "/portfolio_saravind/static/media/logo_saravind.9d82e0c79898489dd06c6bdf8145f826.svg",
@@ -18,12 +18,12 @@
     "static/media/icons_social_twitter.svg": "/portfolio_saravind/static/media/icons_social_twitter.a98100a8d4b2c93d7c8125fa20a67a97.svg",
     "static/media/icon_briefcase.svg": "/portfolio_saravind/static/media/icon_briefcase.6ce7c7f8278a447ad7710639b3d5e809.svg",
     "static/media/icon_steps.svg": "/portfolio_saravind/static/media/icon_steps.644fa92d5f439e07767afa05459f47c2.svg",
-    "main.808cfa49.css.map": "/portfolio_saravind/static/css/main.808cfa49.css.map",
+    "main.ebba74b7.css.map": "/portfolio_saravind/static/css/main.ebba74b7.css.map",
     "main.e29b74ef.js.map": "/portfolio_saravind/static/js/main.e29b74ef.js.map",
     "453.a42074de.chunk.js.map": "/portfolio_saravind/static/js/453.a42074de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.808cfa49.css",
+    "static/css/main.ebba74b7.css",
     "static/js/main.e29b74ef.js"
   ]
 }
