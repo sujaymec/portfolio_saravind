@@ -3,7 +3,6 @@ function ProjectSection({thumbNail, icon_array, heading, text}) {
     return (
         <div className="sp-content sp-flex-column sp-project-section">
         <img src={thumbNail} alt="" className="project-thumbnail" />
-        <br />
         <h3>{heading}</h3>
         <p>{text}</p>
         <div className="tag-list sp-flex sp-flex-row">

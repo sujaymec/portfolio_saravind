@@ -7,10 +7,9 @@ import icon_briefcase from './components/img/icon_briefcase.svg'
 import icon_devices from './components/img/icon_devices.svg'
 import icon_steps from './components/img/icon_steps.svg'
 import icon_social_linkedin from './components/img/icon_social_linkedin.svg'
-import icon_social_twitter from './components/img/icons_social_twitter.svg'
+import icon_social_twitter from './components/img/icon_social_twitter.svg'
 import icon_social_behance from './components/img/icon_social_behance.svg'
-import icons_social_medium from './components/img/icons_social_medium.svg'
-// import icon_mail from './components/img/icon_mail.svg'
+import icons_social_medium from './components/img/icon_social_medium.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 
@@ -21,8 +20,8 @@ function App() {
     'text': "An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort."
   }
   const project_2 = {
-    'heading': "Boosting lead generation by 11% through network effects",
-    'text': "Lead generation was increased by 11% through the strategic implementation of network effects on product"
+    'heading': "Boosting lead generation by 6% through network effects",
+    'text': "Enhancing the platform to encourage sharing on LinkedIn has significantly increased lead generation and user engagement through network effects"
   }
   const project_3 = {
     'heading': "Seamless onboarding for banking app targeting next billion users",
@@ -53,13 +52,7 @@ function App() {
           <span className="sp-available">Available for work</span>
       </h4>
       <div className="sp-content">
-        <p>I'm looking to collaborate on interesting projects with great people and teams. Drop an email and lets connect!</p>
-        {/* <div className="email-availability">
-          <button>
-            <span><img src={icon_mail} alt="" /></span>
-            Copy email
-          </button>
-        </div> */}
+        <p>I’m looking to collaborate on interesting projects with great people and teams. Drop an email at <i>saravindkv at gmail dot com</i></p>
       </div>      
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
