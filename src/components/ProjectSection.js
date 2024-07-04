@@ -1,5 +1,19 @@
+// Calling the JSON here would make it an imppure function
 
-function ProjectSection({thumbNail, icon_array, heading, text}) {
+import icon_briefcase from './img/icon_briefcase.svg'
+import icon_devices from './img/icon_devices.svg'
+import icon_steps from './img/icon_steps.svg'
+
+function ProjectSection({thumbNail, heading, text, tags}) {
+    const icon_object = {
+        "hr": icon_briefcase,
+        "Fintech": icon_briefcase,
+        "Web": icon_devices,
+        "Mobile": icon_devices,
+        "AI": icon_steps,
+        "plg": icon_steps,
+        "Build for bharat": icon_steps
+    }
     return (
         <div className="sp-content sp-flex-column sp-project-section">
         <img src={thumbNail} alt="" className="project-thumbnail" />
@@ -7,13 +21,13 @@ function ProjectSection({thumbNail, icon_array, heading, text}) {
         <p>{text}</p>
         <div className="tag-list sp-flex sp-flex-row">
             <div className="sp-tag-name">
-                <span><img src={icon_array[0]} alt="" />HR tech</span>
+                <span><img src={icon_object[tags[0]]} alt="" />{tags[0]}</span>
             </div>
             <div className="sp-tag-name">
-                <span><img src={icon_array[1]} alt="" />Web</span>
+                <span><img src={icon_object[tags[1]]} alt="" />{tags[1]}</span>
             </div>
             <div className="sp-tag-name">
-                <span><img src={icon_array[2]} alt="" />AI</span>
+                <span><img src={icon_object[tags[2]]} alt="" />{tags[2]}</span>
             </div>
         </div>
       </div>

@@ -3,18 +3,15 @@ import separator from './components/img/separator_bar.svg'
 import projectThumbnail_1 from './components/img/thumbnail_1.png'
 import projectThumbnail_2 from './components/img/thumbnail_2.png'
 import projectThumbnail_3 from './components/img/thumbnail_3.png'
-import icon_briefcase from './components/img/icon_briefcase.svg'
-import icon_devices from './components/img/icon_devices.svg'
-import icon_steps from './components/img/icon_steps.svg'
 import icon_social_linkedin from './components/img/icon_social_linkedin.svg'
 import icon_social_twitter from './components/img/icon_social_twitter.svg'
 import icon_social_behance from './components/img/icon_social_behance.svg'
 import icons_social_medium from './components/img/icon_social_medium.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
+import projectJSON from './data/projects.json'
 
 function App() {
-  const icon_array = [icon_briefcase, icon_devices, icon_steps]
   const project_1 = {
     'heading': "WeCP AI: Transform days of test creation into minutes",
     'text': "An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort."
@@ -41,9 +38,9 @@ function App() {
       <h4 className="sp-content selected-work">
           # Selected work
       </h4>
-      <ProjectSection thumbNail={projectThumbnail_1} icon_array ={icon_array} heading={project_1.heading} text={project_1.text} />
-      <ProjectSection thumbNail={projectThumbnail_2} icon_array ={icon_array} heading={project_2.heading} text={project_2.text} />
-      <ProjectSection thumbNail={projectThumbnail_3} icon_array ={icon_array} heading={project_3.heading} text={project_3.text} />
+      <ProjectSection thumbNail={projectThumbnail_1} heading={project_1.heading} text={project_1.text} tags={projectJSON[1].tags} />
+      <ProjectSection thumbNail={projectThumbnail_2} heading={project_2.heading} text={project_2.text} tags={projectJSON[2].tags} />
+      <ProjectSection thumbNail={projectThumbnail_3} heading={project_3.heading} text={project_3.text} tags={projectJSON[3].tags} />
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
       </div>
@@ -63,9 +60,9 @@ function App() {
       <div className="sp-content">
         <ul className='social-icons'>
           <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icon_social_linkedin} alt='' /></a></li>
-          <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icon_social_twitter} alt='' /></a></li>
-          <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icon_social_behance} alt='' /></a></li>
-          <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icons_social_medium} alt='' /></a></li>
+          <li><a href="https://x.com/saravindkv"><img src={icon_social_twitter} alt='' /></a></li>
+          <li><a href="https://www.behance.net/saravindkv"><img src={icon_social_behance} alt='' /></a></li>
+          <li><a href="https://saravindkv.medium.com/"><img src={icons_social_medium} alt='' /></a></li>
         </ul>
       </div>
       <div className="sp-content">
