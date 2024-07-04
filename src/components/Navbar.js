@@ -1,4 +1,4 @@
-import logo_saravind from './logo_saravind.svg'
+import logo_saravind from './img/logo_saravind.png'
 
 function Navbar() {
     return (

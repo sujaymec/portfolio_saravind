@@ -107,9 +107,9 @@ h3{
   background-color: #ececec;
   cursor: url('./components/img/sp_cursor.svg'), auto;
 }
-.project-thumbnail{
+/* .project-thumbnail{
   margin-bottom: 24px;
-}
+} */
 .sp-tag-name{
   padding: 0;
   margin-right: 15px

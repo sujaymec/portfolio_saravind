@@ -1,5 +1,5 @@
 import './App.css';
-import separator from './components/separator_bar.svg'
+import separator from './components/img/separator_bar.svg'
 import projectThumbnail_1 from './components/img/thumbnail_1.png'
 import projectThumbnail_2 from './components/img/thumbnail_2.png'
 import projectThumbnail_3 from './components/img/thumbnail_3.png'
@@ -33,7 +33,7 @@ function App() {
       <div className="sp-content hero-section sp-flex-column">
         <h2>Hey I'm Saravind</h2>
         <p>I'm a software designer with a deep passion for user experience and growth designs. Currently, <span className='sp-semi-bold'>Sr. Product designer</span> at <span className='sp-semi-bold sp-underline'><a href='https://www.wecreateproblems.com/' target='_blank' rel="noreferrer">We Create Problems</a></span>, an platform helps recruiters assess candidates more effectively. </p>
-        <p>Previously, I designed key products for startups including Itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
+        <p>Previously, I designed key products for startups including itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
       </div>
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
