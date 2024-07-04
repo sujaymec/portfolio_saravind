@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio_saravind/static/css/main.4635bc83.css",
-    "main.js": "/portfolio_saravind/static/js/main.1a4f6b0d.js",
+    "main.css": "/portfolio_saravind/static/css/main.2d0f374a.css",
+    "main.js": "/portfolio_saravind/static/js/main.95027db0.js",
     "static/js/453.a42074de.chunk.js": "/portfolio_saravind/static/js/453.a42074de.chunk.js",
-    "static/media/logo_saravind.svg": "/portfolio_saravind/static/media/logo_saravind.9d82e0c79898489dd06c6bdf8145f826.svg",
     "static/media/thumbnail_3.png": "/portfolio_saravind/static/media/thumbnail_3.7835497baf0d47f4ca04.png",
     "static/media/thumbnail_1.png": "/portfolio_saravind/static/media/thumbnail_1.b19993ebb4f1cc7dda9b.png",
     "static/media/thumbnail_2.png": "/portfolio_saravind/static/media/thumbnail_2.ad921bac9185de8a3598.png",
@@ -19,12 +18,12 @@
     "static/media/icon_social_twitter.svg": "/portfolio_saravind/static/media/icon_social_twitter.644246864d598c3f42625367fdede303.svg",
     "static/media/icon_briefcase.svg": "/portfolio_saravind/static/media/icon_briefcase.6ce7c7f8278a447ad7710639b3d5e809.svg",
     "static/media/icon_steps.svg": "/portfolio_saravind/static/media/icon_steps.644fa92d5f439e07767afa05459f47c2.svg",
-    "main.4635bc83.css.map": "/portfolio_saravind/static/css/main.4635bc83.css.map",
-    "main.1a4f6b0d.js.map": "/portfolio_saravind/static/js/main.1a4f6b0d.js.map",
+    "main.2d0f374a.css.map": "/portfolio_saravind/static/css/main.2d0f374a.css.map",
+    "main.95027db0.js.map": "/portfolio_saravind/static/js/main.95027db0.js.map",
     "453.a42074de.chunk.js.map": "/portfolio_saravind/static/js/453.a42074de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4635bc83.css",
-    "static/js/main.1a4f6b0d.js"
+    "static/css/main.2d0f374a.css",
+    "static/js/main.95027db0.js"
   ]
 }
