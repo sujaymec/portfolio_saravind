@@ -1,17 +1,20 @@
 {
     "1":{
         "heading":"WeCP AI: Transform days of test creation into minutes",
+        "url":"https://saravindkv.notion.site/WeCP-AI-Transform-days-of-assessment-creation-into-minutes-closed-70a202c839bb4fa3ba2235a80c40f5f2",
         "text":"An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort.",
-        "tags" : ["hr", "Web", "AI"]
+        "tags" : ["HR Tech", "Web", "AI"]
     },
     "2":{
-        "heading":"WeCP AI: Transform days of test creation into minutes",
-        "text":"An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort.",
-        "tags" : ["hr", "Web", "PLG"]
+        "heading":"Boosting lead generation by 6% through network effects",
+        "url":"https://saravindkv.notion.site/Boosting-lead-generation-by-6-through-network-effects-closed-8355128859054b839916c577df2145c6",
+        "text":"Enhancing the platform to encourage sharing on LinkedIn has significantly increased lead generation and user engagement through network effects",
+        "tags" : ["HR Tech", "Web", "PLG"]
     },
     "3":{
-        "heading":"WeCP AI: Transform days of test creation into minutes",
-        "text":"An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort.",
+        "heading":"Seamless onboarding for banking app targeting next billion users",
+        "url":"https://saravindkv.notion.site/Seamless-onboarding-for-banking-app-targeting-the-next-billion-users-closed-df14422650354e5ba7e0a2aa373ea3b2",
+        "text":"Designed a conversational onboarding screen for a banking app, simplifying banking for new smartphone users in rural tier 2 cities.",
         "tags" : ["Fintech", "Mobile", "Build for bharat"]
     }
 }

@@ -12,18 +12,6 @@ import ProjectSection from './components/ProjectSection';
 import projectJSON from './data/projects.json'
 
 function App() {
-  const project_1 = {
-    'heading': "WeCP AI: Transform days of test creation into minutes",
-    'text': "An AI tool allows users to generate comprehensive test assessments for various skills in minutes, eliminating the need for days of manual effort."
-  }
-  const project_2 = {
-    'heading': "Boosting lead generation by 6% through network effects",
-    'text': "Enhancing the platform to encourage sharing on LinkedIn has significantly increased lead generation and user engagement through network effects"
-  }
-  const project_3 = {
-    'heading': "Seamless onboarding for banking app targeting next billion users",
-    'text': "Designed a conversational onboarding screen for a banking app, simplifying banking for new smartphone users in rural tier 2 cities."
-  }
   return (
     <>
       <Navbar />
@@ -38,9 +26,9 @@ function App() {
       <h4 className="sp-content selected-work">
           # Selected work
       </h4>
-      <ProjectSection thumbNail={projectThumbnail_1} heading={project_1.heading} text={project_1.text} tags={projectJSON[1].tags} />
-      <ProjectSection thumbNail={projectThumbnail_2} heading={project_2.heading} text={project_2.text} tags={projectJSON[2].tags} />
-      <ProjectSection thumbNail={projectThumbnail_3} heading={project_3.heading} text={project_3.text} tags={projectJSON[3].tags} />
+      <ProjectSection thumbNail={projectThumbnail_1} url={projectJSON[1].url} heading={projectJSON[1].heading} text={projectJSON[1].text} tags={projectJSON[1].tags} />
+      <ProjectSection thumbNail={projectThumbnail_2} url={projectJSON[2].url} heading={projectJSON[2].heading} text={projectJSON[2].text} tags={projectJSON[2].tags} />
+      <ProjectSection thumbNail={projectThumbnail_3} url={projectJSON[3].url} heading={projectJSON[3].heading} text={projectJSON[3].text} tags={projectJSON[3].tags} />
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
       </div>
@@ -59,10 +47,10 @@ function App() {
       </h4>
       <div className="sp-content">
         <ul className='social-icons'>
-          <li><a href="https://www.linkedin.com/in/saravindkv/"><img src={icon_social_linkedin} alt='' /></a></li>
-          <li><a href="https://x.com/saravindkv"><img src={icon_social_twitter} alt='' /></a></li>
-          <li><a href="https://www.behance.net/saravindkv"><img src={icon_social_behance} alt='' /></a></li>
-          <li><a href="https://saravindkv.medium.com/"><img src={icons_social_medium} alt='' /></a></li>
+          <li><a href="https://www.linkedin.com/in/saravindkv/" target='_blank' rel="noreferrer"><img src={icon_social_linkedin} alt='' /></a></li>
+          <li><a href="https://x.com/saravindkv" target='_blank' rel="noreferrer"><img src={icon_social_twitter} alt='' /></a></li>
+          <li><a href="https://www.behance.net/saravindkv" target='_blank' rel="noreferrer"><img src={icon_social_behance} alt='' /></a></li>
+          <li><a href="https://saravindkv.medium.com/" target='_blank' rel="noreferrer"><img src={icons_social_medium} alt='' /></a></li>
         </ul>
       </div>
       <div className="sp-content">
