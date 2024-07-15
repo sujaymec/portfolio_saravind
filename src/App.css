@@ -28,6 +28,11 @@ h2{
   font-weight: 600;
   color: #282828;
 }
+h2 img{
+  position: relative;
+  top: 2px;
+  right: -2px;
+}
 h3{
   font-size: 20px;
   color: #282828;
@@ -73,6 +78,9 @@ h3{
   line-height: 44px;
   color: #282828;
 }
+.sp-navbar ul li.active{
+  font-weight: 600;
+}
 .sp-navbar ul li::before{
   cursor: default;
   content: '';
@@ -86,6 +94,9 @@ h3{
 }
 .sp-navbar ul li:first-child:before{
   content: none;
+}
+.sp-navbar ul li a{
+  text-decoration: none;
 }
 .sp-separator{
   margin-top: 0;

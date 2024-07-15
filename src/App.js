@@ -7,6 +7,7 @@ import icon_social_linkedin from './components/img/icon_social_linkedin.svg'
 import icon_social_twitter from './components/img/icon_social_twitter.svg'
 import icon_social_behance from './components/img/icon_social_behance.svg'
 import icons_social_medium from './components/img/icon_social_medium.svg'
+import palm from './components/img/palm.svg'
 import Navbar from './components/Navbar';
 import ProjectSection from './components/ProjectSection';
 import projectJSON from './data/projects.json'
@@ -16,7 +17,7 @@ function App() {
     <>
       <Navbar />
       <div className="sp-content hero-section sp-flex-column">
-        <h2>Hey I'm Saravind</h2>
+        <h2>Hey I'm Saravind <img src={palm} alt="" /></h2>
         <p>I'm a software designer with a deep passion for user experience and growth designs. Currently, <span className='sp-semi-bold'>Sr. Product designer</span> at <span className='sp-semi-bold sp-underline'><a href='https://www.wecreateproblems.com/' target='_blank' rel="noreferrer">We Create Problems</a></span>, an platform helps recruiters assess candidates more effectively. </p>
         <p>Previously, I designed key products for startups including itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
       </div>
