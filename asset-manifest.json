@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/portfolio_saravind/static/css/main.5a40612b.css",
-    "main.js": "/portfolio_saravind/static/js/main.4f1c0978.js",
+    "main.css": "/portfolio_saravind/static/css/main.58f896e0.css",
+    "main.js": "/portfolio_saravind/static/js/main.61de797d.js",
     "static/js/453.a42074de.chunk.js": "/portfolio_saravind/static/js/453.a42074de.chunk.js",
     "static/media/logo_saravind.svg": "/portfolio_saravind/static/media/logo_saravind.edc82111c735df538cda884d49c14dbb.svg",
-    "static/media/resume.pdf": "/portfolio_saravind/static/media/resume.cce4e72baf12e584622d.pdf",
+    "static/media/resume.pdf": "/portfolio_saravind/static/media/resume.9301df80644c01793ac0.pdf",
     "static/media/thumbnail_3.png": "/portfolio_saravind/static/media/thumbnail_3.7835497baf0d47f4ca04.png",
     "static/media/thumbnail_1.png": "/portfolio_saravind/static/media/thumbnail_1.b19993ebb4f1cc7dda9b.png",
     "static/media/thumbnail_2.png": "/portfolio_saravind/static/media/thumbnail_2.ad921bac9185de8a3598.png",
@@ -21,12 +21,12 @@
     "static/media/icon_social_twitter.svg": "/portfolio_saravind/static/media/icon_social_twitter.644246864d598c3f42625367fdede303.svg",
     "static/media/icon_briefcase.svg": "/portfolio_saravind/static/media/icon_briefcase.6ce7c7f8278a447ad7710639b3d5e809.svg",
     "static/media/icon_steps.svg": "/portfolio_saravind/static/media/icon_steps.644fa92d5f439e07767afa05459f47c2.svg",
-    "main.5a40612b.css.map": "/portfolio_saravind/static/css/main.5a40612b.css.map",
-    "main.4f1c0978.js.map": "/portfolio_saravind/static/js/main.4f1c0978.js.map",
+    "main.58f896e0.css.map": "/portfolio_saravind/static/css/main.58f896e0.css.map",
+    "main.61de797d.js.map": "/portfolio_saravind/static/js/main.61de797d.js.map",
     "453.a42074de.chunk.js.map": "/portfolio_saravind/static/js/453.a42074de.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5a40612b.css",
-    "static/js/main.4f1c0978.js"
+    "static/css/main.58f896e0.css",
+    "static/js/main.61de797d.js"
   ]
 }
