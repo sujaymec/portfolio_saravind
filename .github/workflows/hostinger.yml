@@ -1,0 +1,41 @@
+name: Deploy React App to Hostinger
+
+on:
+  push:
+    branches:
+      - main  # Run this workflow when changes are pushed to the main branch
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the code from the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Step 2: Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16  # Use the version compatible with CRA
+
+      # Step 3: Install dependencies and build the React app
+      - name: Install dependencies and build
+        run: |
+          npm install
+          npm run build
+
+      # Step 4: Deploy the build directory to Hostinger via FTP
+      - name: Deploy to Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@4.2.0
+        with:
+          server: f193.203.185.160 # Replace with your Hostinger FTP server (or IP)
+          username: u764122208.saravind.me  # Replace with your FTP username
+          password: wordP@ss123  # Replace with your FTP password
+          local-dir: ./build  # The CRA build directory
+          server-dir: /public_html/  # Remote directory (change if deploying to a subdomain)
+          exclude: |
+            .git*
+            node_modules/
+            README.md
