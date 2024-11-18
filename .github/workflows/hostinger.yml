@@ -33,7 +33,7 @@ jobs:
           server: f193.203.185.160 # Replace with your Hostinger FTP server (or IP)
           username: u764122208.saravind.me  # Replace with your FTP username
           password: wordP@ss123  # Replace with your FTP password
-          local-dir: ./build  # The CRA build directory
+          local-dir: ./build/  # The CRA build directory
           server-dir: /public_html/  # Remote directory (change if deploying to a subdomain)
           exclude: |
             .git*
