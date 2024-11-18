@@ -3,7 +3,7 @@ name: Deploy React App to Hostinger
 on:
   push:
     branches:
-      - main  # Run this workflow when changes are pushed to the main branch
+      - master  # Run this workflow when changes are pushed to the main branch
 
 jobs:
   deploy:
