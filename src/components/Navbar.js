@@ -1,5 +1,4 @@
 import logo_saravind from './img/logo_saravind.svg'
-// import resume from '../files/resume.pdf'
 
 function Navbar() {
   const openInNewTab = (url) => {
