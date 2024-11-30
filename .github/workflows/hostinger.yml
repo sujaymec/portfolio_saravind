@@ -8,6 +8,7 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment: hostinger  # Specify the environment
 
     steps:
       # Step 1: Check out the code from the repository
