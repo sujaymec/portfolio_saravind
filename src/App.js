@@ -18,8 +18,8 @@ function App() {
       <Navbar />
       <div className="sp-content hero-section sp-flex-column">
         <h2>Hey I'm Saravind <img src={palm} alt="" /></h2>
-        <p>I'm a product designer with 3+ years of experience, passionate about user experience and growth designs. Currently, <span className='sp-semi-bold'>Sr. Product designer</span> at <span className='sp-semi-bold sp-underline'><a href='https://www.wecreateproblems.com/' target='_blank' rel="noreferrer">We Create Problems</a></span>, a platform that helps recruiters assess candidates more effectively. </p>
-        <p>Previously, I designed key products for startups including itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p>
+        <p>I'm a product designer with 4+ years of experience, passionate about user experience and growth designs. Currently, <span className='sp-semi-bold'>Sr. Product designer</span> at <span className='sp-semi-bold sp-underline'><a href='https://www.wecreateproblems.com/' target='_blank' rel="noreferrer">We Create Problems</a></span>, a platform that helps recruiters assess candidates more effectively. </p>
+        {/* <p>Previously, I designed key products for startups including itilite and Economize Cloud, among others. Before transitioning to design, I specialised in cloud technology operations across multiple firms.</p> */}
       </div>
       <div className="sp-content sp-separator">
         <img src={separator} alt="" />
